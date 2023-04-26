@@ -31,3 +31,52 @@ nav .brand-logo{
 nav ul.navbar{
     display: flex;
 }
+
+/*
+ card 
+*/
+
+.portfolio blockquote{
+    border-right: 5px solid #ee6e73;
+    border-left: 0;
+    padding-right: 1.5rem;
+}
+
+.portfolio-title{
+    margin-bottom: 40px;
+}
+
+.portfolio a:hover{
+    color: #000 !important;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.card img{
+    transition: all .3s ease-in-out;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+}
+
+.portfolio img{
+    height: 150px;
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
