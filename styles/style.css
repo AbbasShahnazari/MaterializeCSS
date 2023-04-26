@@ -36,7 +36,7 @@ nav ul.navbar{
  card 
 */
 
-.portfolio blockquote{
+.portfolio-title blockquote{
     border-right: 5px solid #ee6e73;
     border-left: 0;
     padding-right: 1.5rem;
@@ -79,4 +79,28 @@ nav ul.navbar{
 .section {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+/* 
+    Carousel
+*/
+
+.carousel{
+    height: 550px;
+}
+.carousel .carousel-item{
+    width: 550px;
+    height: 500px;
+}
+
+.carousel .card .card-content{
+    color: #000;
+}
+
+.carousel .card .card-content p{
+   color: #999;
+}
+
+.parallax img{
+    width: 100%;
 }
