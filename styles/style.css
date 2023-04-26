@@ -101,6 +101,16 @@ nav ul.navbar{
    color: #999;
 }
 
+/* 
+    parallax
+*/
 .parallax img{
     width: 100%;
+}
+
+/* 
+    services
+*/
+ul.tabs{
+    display: flex;
 }
