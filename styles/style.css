@@ -7,6 +7,27 @@
 }
 
 body{
-    direction: rtl!important;
+    direction: rtl !important;
     font-family: 'vazir';
+}
+
+/* 
+    header
+*/
+
+.header{
+    background-image: url('../images/head.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav .brand-logo{
+    position: relative !important;
+    font-size: 1.8rem;
+}
+
+nav ul.navbar{
+    display: flex;
 }
