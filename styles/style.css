@@ -114,3 +114,65 @@ nav ul.navbar{
 ul.tabs{
     display: flex;
 }
+
+
+/* footer */
+
+.flex{
+    display: flex;
+}
+.flex p{
+    line-height: 25px;
+}
+
+.social svg{
+    font-size: 20px;
+}
+
+.social div{
+    margin-top: 10px;
+}
+
+.fast{
+    display: flex;
+}
+
+.fast ul{
+    padding: 0;
+}
+
+.fast div h6{
+    color: gold !important;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        height: 500px !important;
+    }
+    .flex{
+        display: block;
+    }
+    .fast{
+        display: block;
+    }
+    .fast div ul{
+        text-align: center;
+    }
+    .fast div h6{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #service .row div{
+        margin: 10px 0;
+    }
+
+    #service .row div h2{
+        font-size: 28px;
+    }
+    #service .row div ul{
+        padding: 0;
+    }
+}
